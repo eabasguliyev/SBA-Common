@@ -20,6 +20,8 @@ __exportStar(require("./errors/BadRequestError"), exports);
 __exportStar(require("./errors/CustomError"), exports);
 __exportStar(require("./errors/NotFoundError"), exports);
 __exportStar(require("./errors/RequestValidationError"), exports);
+__exportStar(require("./errors/GRPCError"), exports);
+__exportStar(require("./errors/InternalServerError"), exports);
 // Middlewares
 __exportStar(require("./middlewares/errorHandlerMiddleware"), exports);
 __exportStar(require("./middlewares/requestValidationMiddlewares"), exports);
