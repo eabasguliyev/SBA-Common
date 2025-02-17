@@ -19,4 +19,3 @@ function handleError(error) {
     }
 }
 exports.handleError = handleError;
-//# sourceMappingURL=handleError.js.map

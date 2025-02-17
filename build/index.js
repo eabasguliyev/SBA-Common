@@ -26,4 +26,3 @@ __exportStar(require("./middlewares/requestValidationMiddlewares"), exports);
 // Helpers
 __exportStar(require("./helpers/handleError"), exports);
 //
-//# sourceMappingURL=index.js.map

@@ -7,4 +7,3 @@ var StatusCode;
     StatusCode[StatusCode["ContentNotFound"] = 404] = "ContentNotFound";
     StatusCode[StatusCode["InternalServerError"] = 500] = "InternalServerError";
 })(StatusCode = exports.StatusCode || (exports.StatusCode = {}));
-//# sourceMappingURL=ErrorCode.js.map
