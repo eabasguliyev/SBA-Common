@@ -9,7 +9,6 @@ export const errorHandlerMiddleware = (
 ) => {
   if (err instanceof CustomError) {
     res.status(err.statusCode).send({ errors: err.serializeErrors() });
-
     return;
   }
 
