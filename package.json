@@ -1,6 +1,6 @@
 {
   "name": "@eabasguliyev-sba/common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "scripts": {
     "clean": "npx del-cli build --force",
